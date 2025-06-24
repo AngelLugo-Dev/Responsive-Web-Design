@@ -8,13 +8,14 @@ Este repositorio contiene todos los proyectos y prácticas que estoy desarrollan
 
 Durante este curso aprendo a crear sitios web modernos, responsivos y profesionales con tecnologías base del frontend:
 
-- Estructura semántica en **HTML5**
-- Estilos modernos con **CSS3**
-- **Diseño responsive** usando media queries
-- **Flexbox** y **CSS Grid Layout**
-- Animaciones y efectos visuales
-- Buenas prácticas de desarrollo web
-
+- Fundamentos de HTML
+- Fundamentos de CSS
+- layouts ,flexbox y grid
+- reglas de diseño web y frameworks
+- componentes y patrones layout
+- 
+- 
+- 
 ---
 
 ## 📁 Estructura del repositorio
@@ -34,7 +35,7 @@ Cada carpeta representa una sección o proyecto importante del curso:
 - Visual Studio Code
 - Git + GitKraken
 - GitHub
-- GitHub Pages (para mostrar demos)
+
 
 ---
 
