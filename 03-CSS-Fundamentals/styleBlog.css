@@ -1,0 +1,52 @@
+body {
+  color: black;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+.producto {
+  border: 2px solid black;
+}
+.titulo-producto {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  background-color: #f7f7f7;
+}
+.price {
+  font-size: 24px;
+}
+.free {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+}
+.detail-title {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.detail.list {
+  list-style: square;
+}
+.addCad {
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.addCad:hover {
+  color: black;
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+.more-info:hover,
+.more-info:active {
+  color: black;
+}
