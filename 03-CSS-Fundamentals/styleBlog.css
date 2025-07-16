@@ -69,6 +69,11 @@ body {
 .more-info:active {
   color: black;
 }
+.foot {
+  border: 2px solid black;
+  margin: 50px auto;
+  width: 820px;
+}
 .return {
   color: white;
   width: 100%;

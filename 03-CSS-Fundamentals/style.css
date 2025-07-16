@@ -149,6 +149,18 @@ a:active {
   width: 100%;
   height: auto;
 }
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block;*/
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+nav a:link:last-child {
+  margin-right: 0;
+}
 /* Resolvin conflicts 
 #copyright {
   color: red;
