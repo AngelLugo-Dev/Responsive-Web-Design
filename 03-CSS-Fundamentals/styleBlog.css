@@ -104,3 +104,38 @@ body {
   top: -20px;
   left: -30px;
 }
+.colors {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+.negro {
+  background-color: #000000;
+  width: 20px;
+  height: 20px;
+}
+.azul {
+  background-color: #0000ff;
+  width: 20px;
+  height: 20px;
+}
+.rojo {
+  background-color: #ff0000;
+  width: 20px;
+  height: 20px;
+}
+.amarillo {
+  background-color: #ffff00;
+  width: 20px;
+  height: 20px;
+}
+.verde {
+  background-color: #008000;
+  width: 20px;
+  height: 20px;
+}
+.cafe {
+  background-color: #a52a2a;
+  width: 20px;
+  height: 20px;
+}
