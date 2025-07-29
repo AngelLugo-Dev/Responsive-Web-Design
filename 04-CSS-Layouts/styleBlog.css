@@ -22,7 +22,9 @@ body {
 }
 .price {
   font-size: 24px;
+  /*
   float: left;
+  */
   margin-top: 8px;
 }
 .free {
@@ -30,9 +32,12 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: gray;
+  /*
   margin-bottom: 20px;
   float: right;
+
   margin-top: 20px;
+   */
 }
 .detail-title {
   text-transform: uppercase;
@@ -115,10 +120,12 @@ body {
   background-color: #000000;
   width: 20px;
   height: 20px;
+  /*
   display: inline-block;
   margin-right: 10px;
   margin-top: 30px;
   padding: 5px;
+  */
 }
 .color-azul {
   background-color: #0000ff;
@@ -135,12 +142,15 @@ body {
 .color-cafe {
   background-color: #a52a2a;
 }
+/* FLEXBOX */
+/* 
 .img-container {
   float: left;
   width: 250px;
   margin-right: 40px;
   padding-top: 20px;
 }
+
 .description {
   width: 240px;
   float: left;
@@ -163,4 +173,25 @@ body {
   content: "";
   display: block;
   clear: both;
+}
+*/
+.clearfix {
+  display: flex;
+  gap: 30px;
+  flex: 1;
+}
+.description {
+  align-items: center;
+}
+.colors {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+.venta {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  justify-content: space-between;
 }
