@@ -24,8 +24,8 @@ body {
   font-size: 24px;
   /*
   float: left;
-  */
   margin-top: 8px;
+  */
 }
 .free {
   font-size: 12px;
@@ -48,7 +48,7 @@ body {
 
 .detail-list {
   list-style: square;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .detail-list li {
   margin-bottom: 10px;
@@ -142,26 +142,30 @@ body {
 .color-cafe {
   background-color: #a52a2a;
 }
-/* FLEXBOX */
-/* 
-.img-container {
-  float: left;
-  width: 250px;
-  margin-right: 40px;
-  padding-top: 20px;
+/* FLOAT */
+.description {
+  margin-top: 20px;
 }
 
-.description {
-  width: 240px;
-  float: left;
-  margin-top: 8px;
-}
 .details {
+  /*
   width: 240px;
   float: right;
   margin-left: 40px;
-  margin-top: 10px;
+  */
+
+  flex: 1;
 }
+
+.img-container {
+  /*float: left;
+  width: 250px;
+  padding-top: 20px;
+  */
+}
+
+/* 
+
 .cardd {
   clear: both;
 }
@@ -175,23 +179,26 @@ body {
   clear: both;
 }
 */
+/* FLEXBOX */
 .clearfix {
   display: flex;
-  gap: 30px;
-  flex: 1;
+  gap: 40px;
 }
 .description {
   align-items: center;
+  flex: 1;
 }
 .colors {
   display: flex;
   gap: 10px;
+  /*
   align-items: center;
   margin-top: 20px;
+  */
 }
 .venta {
   display: flex;
-  align-items: center;
-  margin: 0;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
