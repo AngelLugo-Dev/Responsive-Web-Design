@@ -12,7 +12,13 @@ body {
   border: 2px solid black;
   width: 820px;
   margin: 50px auto;
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
 }
+
+/* Removemos el display flex y otras propiedades que interfieren */
+
 .titulo-producto {
   text-transform: uppercase;
   text-align: center;
@@ -120,6 +126,7 @@ body {
   background-color: #000000;
   width: 20px;
   height: 20px;
+  margin-top: 15px;
   /*
   display: inline-block;
   margin-right: 10px;
@@ -143,9 +150,6 @@ body {
   background-color: #a52a2a;
 }
 /* FLOAT */
-.description {
-  margin-top: 20px;
-}
 
 .details {
   /*
@@ -153,8 +157,6 @@ body {
   float: right;
   margin-left: 40px;
   */
-
-  flex: 1;
 }
 
 .img-container {
@@ -164,29 +166,8 @@ body {
   */
 }
 
-/* 
-
-.cardd {
-  clear: both;
-}
-.description-text {
-  clear: both;
-  margin-bottom: 10px;
-}
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-*/
-/* FLEXBOX */
-.clearfix {
-  display: flex;
-  gap: 40px;
-}
 .description {
-  align-items: center;
-  flex: 1;
+  /* Removemos las propiedades flex */
 }
 .colors {
   display: flex;
@@ -201,4 +182,28 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+}
+/* GRID LAYOUT*/
+
+.titulo-producto {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+.img-container {
+  grid-column: 1 / 2;
+  grid-row: 2;
+}
+
+.description {
+  grid-column: 2 / 3;
+  grid-row: 2;
+}
+
+.details {
+  grid-column: 3 / -1;
+  grid-row: 2;
+}
+
+.cardd {
+  grid-column: 1/-1;
 }
